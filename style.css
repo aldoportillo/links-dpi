@@ -39,7 +39,8 @@ body{
 .links{
   display: flex;
   flex-direction: column;
-
+  align-items: center;
+  margin: 2vw;
   gap: 2vh;
 }
 
