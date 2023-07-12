@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  padding: 10vh 0 10vh 0;
+
+  height: 80vh;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header > img{
+  width: 20vw;
+  height: 20vw;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 25vw;
+}
