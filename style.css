@@ -12,7 +12,7 @@ body{
   justify-content: flex-start;
   width: 100vw;
   padding: 10vh 0 10vh 0;
-
+  gap: 2vh;
   height: 80vh;
 }
 .header{
@@ -34,4 +34,25 @@ body{
   justify-content: space-between;
   align-items: center;
   width: 50vw;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+
+  gap: 2vh;
+}
+
+.link{
+  width: 50vw;
+  height: 5vw;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+}
+
+.thumbnail{
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
 }
