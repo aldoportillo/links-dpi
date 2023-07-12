@@ -21,3 +21,10 @@ body{
   max-height: 200px;
   border-radius: 25vw;
 }
+
+.header > .social-media-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
