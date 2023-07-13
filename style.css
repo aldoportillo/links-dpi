@@ -57,7 +57,7 @@ body{
   font-size: 1.25em;
 }
 
-.link > a {
+.link > p {
   flex-grow: 1;
   text-align: center;
 }
