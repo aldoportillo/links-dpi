@@ -20,6 +20,11 @@ body{
   padding: 2vh;
 }
 
+.header > h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
 .header > img{
   width: 20vw;
   height: 20vw;
@@ -60,6 +65,7 @@ body{
 .link > p {
   flex-grow: 1;
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .link:hover{
