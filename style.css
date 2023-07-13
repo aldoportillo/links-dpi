@@ -11,13 +11,13 @@ body{
   align-items: center;
   justify-content: flex-start;
   width: 100vw;
-  padding: 10vh 0 10vh 0;
   gap: 2vh;
 }
 .header{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2vh;
 }
 
 .header > img{
@@ -45,7 +45,7 @@ body{
 
 .link{
   width: 60vw;
-  height: 10vh;
+  height: 8vh;
   background-color: rgba(149, 123, 173, 0.25);
   display: flex;
   align-items: center;
