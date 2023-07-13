@@ -45,8 +45,8 @@ body{
 }
 
 .link{
-  width: 50vw;
-  height: 5vw;
+  width: 80vw;
+  height: 10vw;
   background-color: rgba(149, 123, 173, 0.25);
   display: flex;
   align-items: center;
@@ -86,3 +86,21 @@ body{
   }
 }
 /*End Imported Background*/
+
+
+@media only screen and (max-width: 880px) {
+
+  .header > .social-media-links {
+    width: 80vw;
+  }
+  .link{
+    width: 80vw;
+    height: 10vw;
+    background-color: rgba(149, 123, 173, 0.25);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 2.5px 2.5px rgba(255, 0, 0, 0.556);
+    transition: 0.3s;
+  }
+}
